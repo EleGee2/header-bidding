@@ -1,6 +1,6 @@
-# Header Bidding Example with Prebid.js
+# Header Bidding with Prebid.js
 
-This is a sample project demonstrating a basic header bidding implementation using Prebid.js. It includes:
+This is a project demonstrating a basic header bidding implementation using Prebid.js. It includes:
 
 * Client-side Prebid.js configuration for ad units and bidders.
 * Server-side (simulated) logic for dynamic floor pricing.
