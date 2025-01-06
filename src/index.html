@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Header Bidding Example</title>
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prebid.js@latest/dist/prebid.js" async></script>
+</head>
+<body>
+  <div id="div-gpt-ad-1" style="width:728px; height:90px;">
+    <script>
+      googletag.cmd.push(function() {
+        googletag.defineSlot('/19968336/prebid_test', [728, 90], 'div-gpt-ad-1').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+      });
+    </script>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

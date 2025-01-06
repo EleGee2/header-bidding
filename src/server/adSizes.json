@@ -1,0 +1,5 @@
+{
+  "div-gpt-ad-1": { "width": 728, "height": 90, "multiplier": 2 },
+  "div-gpt-ad-2": { "width": 300, "height": 250, "multiplier": 1.5 },
+  "div-gpt-ad-3": { "width": 300, "height": 600, "multiplier": 2.5 }
+}
